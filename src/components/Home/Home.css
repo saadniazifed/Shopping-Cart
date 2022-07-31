@@ -1,0 +1,10 @@
+.ferrari--homepage {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.ferrari--text {
+  font-size: 4rem;
+  color: white;
+}
