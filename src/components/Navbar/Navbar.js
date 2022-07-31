@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import logo from "../../logo/ferrari-logo.png";
+import logo from "../../media/ferrari-logo.png";
 
 const { NavLink } = require("react-router-dom");
 

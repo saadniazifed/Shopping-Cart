@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../logo/ferrari_homepage_video.mp4";
+import video from "../../media/ferrari_homepage_video.mp4";
 import "./Home.css";
 
 export const Home = () => {
