@@ -2,9 +2,9 @@
   background: #fff;
   border-radius: 3px;
   justify-content: flex-end;
-  display: flex;
-  position: absolute;
-  margin-left: 1307px;
-  margin-top: 56px;
   width: 70px;
+  position: fixed;
+  top: 80px;
+  width: 70px;
+  z-index: 100;
 }
