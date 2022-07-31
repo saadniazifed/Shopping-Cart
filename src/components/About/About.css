@@ -3,6 +3,11 @@
   src: url(../../fonts/ferro_rosso/FerroRosso.ttf);
 }
 
+@font-face {
+  font-family: Titillium;
+  src: url(../../fonts/titillium_web/TitilliumWeb-Regular.ttf);
+}
+
 h1 {
   display: inline-block;
 }
@@ -36,4 +41,9 @@ h1 {
 .about--name h1:nth-of-type(2) {
   font-family: Ferrari;
   margin-top: 28px;
+}
+
+.about--container p {
+  font-family: Titillium;
+  font-size: 17px;
 }
