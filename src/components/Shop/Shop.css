@@ -1,0 +1,5 @@
+.shop--container {
+  border: 2px solid black;
+  min-height: 100vh;
+  background: #1e1b1b none repeat scroll 0 0;
+}
