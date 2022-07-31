@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div:first-of-type {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo--container {
+  width: 100px;
+}
+
+.logo--container img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
