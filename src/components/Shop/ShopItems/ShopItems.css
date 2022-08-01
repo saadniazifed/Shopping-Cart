@@ -74,3 +74,17 @@
   color: black;
   text-align: center;
 }
+
+.shop--container {
+  border: 2px solid black;
+  min-height: 100vh;
+  background: #1e1b1b none repeat scroll 0 0;
+}
+
+.car--quantity--input {
+  width: 55px;
+  height: 22px;
+  padding: 4px;
+  font-family: Ferrari;
+  font-size: 1.2rem;
+}
