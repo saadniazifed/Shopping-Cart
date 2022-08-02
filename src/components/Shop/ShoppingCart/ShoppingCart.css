@@ -1,0 +1,12 @@
+.shopping--cart {
+  background: #fff;
+  border-radius: 3px;
+  justify-content: flex-end;
+  width: 70px;
+  position: fixed;
+  top: 80px;
+  width: 70px;
+  display: flex;
+  gap: 10px;
+  left: 30px;
+}

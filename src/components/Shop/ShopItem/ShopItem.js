@@ -1,14 +1,8 @@
 import React from "react";
 import "./ShopItem.css";
-import { useState } from "react";
 
 export function ShopItem(props) {
-  const { car } = props;
-  const [carAmount, setCarAmount] = useState(1);
-
-  const changeCarAmount = (e) => {
-    setCarAmount(e.target.value);
-  };
+  const { car, addToCart, cart, changeCarAmount } = props;
 
   return (
     <>
@@ -23,15 +17,15 @@ export function ShopItem(props) {
             type="number"
             className="car--quantity--input"
             onChange={(e) => changeCarAmount(e)}
-            value={carAmount}
-            name="cars"
+            value={cart}
+            name={car.name}
             min="1"
             max="10"
           />
           <button
             type="button"
             className="addToCart"
-            // onClick={(e) => addToCart(e, cars)}
+            onClick={(e) => addToCart(e, { cart }, car.name)}
           >
             Add to Cart
           </button>

@@ -1,16 +1,3 @@
-.shopping--cart {
-  background: #fff;
-  border-radius: 3px;
-  justify-content: flex-end;
-  width: 70px;
-  position: fixed;
-  top: 80px;
-  width: 70px;
-  z-index: 100;
-  display: flex;
-  gap: 10px;
-}
-
 .shopping--wrapper {
   display: flex;
   justify-content: center;
