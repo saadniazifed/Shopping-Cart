@@ -1,20 +1,23 @@
 import React, { useState } from "react";
 import carsData from "../../carData/carData";
-import { ShopItems } from "./ShopItems/ShopItems";
+import { ShopItem } from "./ShopItem/ShopItem";
+import "./Shop.css";
 
 export const Shop = () => {
   const [cars, setCars] = useState(carsData);
-  const [carAmount, setCarAmount] = useState();
   // const [cartList, setCartList] = useState([]); <--Will use it later for Adding it to Cart.
+
+  const renderShopItems = () => {
+    return cars.map((car) => {
+      return <ShopItem car={car} />;
+    });
+  };
 
   return (
     <>
-      <ShopItems
-        cars={cars}
-        carAmount={carAmount}
-        setCarAmount={setCarAmount}
-        // addToCart={addToCart}
-      />
+      <div className="shop--container">
+        <div className="shopping--wrapper">{renderShopItems()}</div>
+      </div>
     </>
   );
 };
