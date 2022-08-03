@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart/static/css/main.c6c6d22f.css",
+    "main.css": "/Shopping-Cart/static/css/main.7c6c24ad.css",
     "main.js": "/Shopping-Cart/static/js/main.40ce316b.js",
     "static/media/ferrari_homepage_video.mp4": "/Shopping-Cart/static/media/ferrari_homepage_video.b7662a319976a5afca1e.mp4",
     "static/media/factory.jpeg": "/Shopping-Cart/static/media/factory.f26e8fe825bd386fefce.jpeg",
@@ -8,11 +8,11 @@
     "static/media/TitilliumWeb-Regular.ttf": "/Shopping-Cart/static/media/TitilliumWeb-Regular.a9029a54cdb20d107630.ttf",
     "static/media/FerroRosso.ttf": "/Shopping-Cart/static/media/FerroRosso.161dd133ba45cb0f46fd.ttf",
     "index.html": "/Shopping-Cart/index.html",
-    "main.c6c6d22f.css.map": "/Shopping-Cart/static/css/main.c6c6d22f.css.map",
+    "main.7c6c24ad.css.map": "/Shopping-Cart/static/css/main.7c6c24ad.css.map",
     "main.40ce316b.js.map": "/Shopping-Cart/static/js/main.40ce316b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6c6d22f.css",
+    "static/css/main.7c6c24ad.css",
     "static/js/main.40ce316b.js"
   ]
 }
