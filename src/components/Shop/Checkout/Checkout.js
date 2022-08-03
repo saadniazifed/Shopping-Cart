@@ -1,7 +1,7 @@
-import React, { useState, useEffect, createFactory } from "react";
+import React, { useState, useEffect } from "react";
 import "./Checkout.css";
 
-export const Checkout = ({ cartLength, cart }) => {
+export const Checkout = ({ cartLength, cart, hideCheckOut }) => {
   const [totalAmount, setTotalAmount] = useState(0);
 
   useEffect(() => {
@@ -15,8 +15,10 @@ export const Checkout = ({ cartLength, cart }) => {
   }, [cart, totalAmount]);
 
   return (
-    <div className="checkout--cart--container">
-      <span className="close--cart">x</span>
+    <div className="checkout--cart--container animate">
+      <span className="close--cart" onClick={hideCheckOut}>
+        x
+      </span>
       <div className="checkout--center">
         <h4>Your Cart: {cartLength}</h4>
         <div className="checkout--items--container">
