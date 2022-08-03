@@ -26,9 +26,7 @@ export function ShopItem(props) {
         <button
           type="button"
           className="addToCart"
-          onClick={() =>
-            addToCart(itemQuantity, car.name, car.image, car.price)
-          }
+          onClick={() => addToCart(itemQuantity, car.name, car.price)}
         >
           Add to Cart
         </button>

@@ -1,5 +1,6 @@
 import React from "react";
 import shoppingCartLogo from "../../../media/shopping-cart.png";
+import { Checkout } from "../Checkout/Checkout";
 import "./ShoppingCart.css";
 
 export const ShoppingCart = (props) => {
@@ -13,6 +14,7 @@ export const ShoppingCart = (props) => {
         alt="shopping cart logo"
         className="shopping--cart--logo"
       />
+      <Checkout />
     </div>
   );
 };
