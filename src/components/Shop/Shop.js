@@ -3,14 +3,16 @@ import carsData from "../../carData/carData";
 import { ShopItem } from "./ShopItem/ShopItem";
 import { ShoppingCart } from "./ShoppingCart/ShoppingCart";
 import "./Shop.css";
+import { Checkout } from "./Checkout/Checkout";
 
 export const Shop = () => {
   const [cart, setCart] = useState([]);
 
-  const addToCart = (quantity, name) => {
+  const addToCart = (quantity, name, price) => {
     const cartObj = {
       quantity,
       name,
+      price,
     };
     setCart((prev) => [...prev, cartObj]);
   };
@@ -25,6 +27,7 @@ export const Shop = () => {
           ))}
           <ShoppingCart cartLength={cart.length} />
         </div>
+        <Checkout />
       </div>
     </>
   );

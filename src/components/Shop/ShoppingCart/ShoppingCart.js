@@ -8,7 +8,11 @@ export const ShoppingCart = (props) => {
   return (
     <div className="shopping--cart">
       <p>{cartLength}</p>
-      <img src={shoppingCartLogo} alt="shopping cart logo" />
+      <img
+        src={shoppingCartLogo}
+        alt="shopping cart logo"
+        className="shopping--cart--logo"
+      />
     </div>
   );
 };
