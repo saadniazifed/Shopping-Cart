@@ -4,7 +4,7 @@ import { Checkout } from "../Checkout/Checkout";
 import "./ShoppingCart.css";
 
 export const ShoppingCart = (props) => {
-  const { cartLength } = props;
+  const { cartLength, cart } = props;
 
   return (
     <div className="shopping--cart">
@@ -14,7 +14,7 @@ export const ShoppingCart = (props) => {
         alt="shopping cart logo"
         className="shopping--cart--logo"
       />
-      <Checkout />
+      <Checkout cartLength={cartLength} cart={cart} />
     </div>
   );
 };

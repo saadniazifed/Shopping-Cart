@@ -7,6 +7,7 @@ import "./Shop.css";
 
 export const Shop = () => {
   const [cart, setCart] = useState([]);
+  console.log(cart);
 
   const addToCart = (quantity, name, price) => {
     const cartObj = {
@@ -16,7 +17,6 @@ export const Shop = () => {
     };
     setCart((prev) => [...prev, cartObj]);
   };
-  console.log(cart);
 
   return (
     <>
@@ -25,7 +25,8 @@ export const Shop = () => {
           {carsData.map((car) => (
             <ShopItem key={car.id} car={car} addToCart={addToCart} />
           ))}
-          <ShoppingCart cartLength={cart.length} />
+
+          <ShoppingCart cartLength={cart.length} cart={cart} />
         </div>
       </div>
     </>
