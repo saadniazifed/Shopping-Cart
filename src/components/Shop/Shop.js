@@ -3,7 +3,6 @@ import carsData from "../../carData/carData";
 import { ShopItem } from "./ShopItem/ShopItem";
 import { ShoppingCart } from "./ShoppingCart/ShoppingCart";
 import "./Shop.css";
-// import { Checkout } from "./Checkout/Checkout";
 
 export const Shop = () => {
   const [cart, setCart] = useState([]);

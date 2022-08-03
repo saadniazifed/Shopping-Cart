@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Checkout.css";
 
 export const Checkout = ({ cartLength, cart, hideCheckOut }) => {
   const [totalAmount, setTotalAmount] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     let total = 0;
@@ -37,11 +39,12 @@ export const Checkout = ({ cartLength, cart, hideCheckOut }) => {
           </div>
         </div>
         <div className="checkout--buttons">
-          <button type="button" className="btn btn-primary">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={() => navigate("order-summary")}
+          >
             Checkout
-          </button>
-          <button type="button" className="btn btn-primary">
-            Empty Cart
           </button>
         </div>
       </div>

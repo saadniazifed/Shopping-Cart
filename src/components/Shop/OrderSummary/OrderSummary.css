@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Titillium;
+  src: url(../../../fonts/titillium_web/TitilliumWeb-Regular.ttf);
+}
+
+body {
+  background-color: black;
+}
+
+.order--summary--container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 89.1vh;
+  justify-content: center;
+  gap: 1rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: antiquewhite;
+}
+
+.order--summary--container h3 {
+  font-family: Titillium;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.order--summary--container p {
+  font-family: Titillium;
+  font-size: 1.2rem;
+}
+
+.order--button {
+  font-family: Poppins;
+  padding: 1rem;
+  width: 300px;
+  font-size: 1rem;
+  background-color: orangered;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.order--button:hover {
+  background-color: black;
+}
