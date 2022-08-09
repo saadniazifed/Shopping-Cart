@@ -1,6 +1,6 @@
 This is the [Third React Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/shopping-cart) from The Odin Project's Full Stack Javascript curriculum.
 
-![gif demonstrating the app's features](../shopping-cart/src/media/shopping-cart-demo.gif)
+![gif demonstrating the app's features](https://media.giphy.com/media/GDeV2QBWOqFyxUoEJE/giphy-downsized-large.gif)
 
 ## Live version
 
