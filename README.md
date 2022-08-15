@@ -27,3 +27,5 @@ This is the [Third React Project](https://www.theodinproject.com/paths/full-stac
 ## Areas for improvement
 
 1. Improve responsiveness across browsers and device.
+2. Utilise an API to fetch the data rather than hard-coded values.
+3. Add a filter where the users can sort out the item by price.
